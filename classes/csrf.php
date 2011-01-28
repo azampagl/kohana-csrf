@@ -3,7 +3,7 @@
 class CSRF {
 
 	// Session instance
-	public static $session = 'default';
+	public static $session = 'native';
 
 	// Name of the CSRF token
 	public static $token = 'csrf-token';
